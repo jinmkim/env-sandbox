@@ -5,6 +5,12 @@ on:
     tags:
       - v*
 jobs:
+  run: |
+        echo $PATH
+               echo $PATH
+                      echo $PATH
+                             echo $PATH
+                                    echo $PATH
   build:
     runs-on: ubuntu-latest
     env:
